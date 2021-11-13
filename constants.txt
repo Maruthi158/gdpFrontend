@@ -1,2 +1,4 @@
 herokuApp = " https://gdpbackend.herokuapp.com/"
-localhost = "http://localhost:3000"
+localhost = "http://localhost:3300"
+
+"proxy": "https://gdpbackend.herokuapp.com/",
