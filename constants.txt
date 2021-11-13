@@ -1,0 +1,2 @@
+herokuApp = " https://gdpbackend.herokuapp.com/"
+localhost = "http://localhost:3000"
