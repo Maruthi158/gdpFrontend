@@ -1,1 +1,1 @@
-all pages code are in "src" folder like signup page code is in signup.jsx file 
+Front end heroku Deployed version : https://gdpclient.herokuapp.com/
