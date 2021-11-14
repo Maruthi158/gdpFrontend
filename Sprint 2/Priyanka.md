@@ -45,6 +45,13 @@ I have completed the story and closed the task with appropriate comments:
 ![image](https://user-images.githubusercontent.com/77593316/141698094-dbc19d49-1f91-4457-9ee8-0467748b8f2a.png)
 
 
+**Story 4:As a Tester, I want to validate the home page with some basic details**
+
+As a tester I have validated the scenario when in home page of the application is it displaying the valid forms by redirecting it to it.
+
+Link to story : https://github.com/Maruthi158/BuddyBearcat/issues/10
+
+Testing evidence document :
 
 
 
