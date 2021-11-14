@@ -32,5 +32,19 @@ I have completed the story and closed the task with appropriate comments:
 ![image](https://user-images.githubusercontent.com/77593316/141698017-c56373b0-97b3-4b22-9076-c40cae68b01e.png)
 
 
+**Story 3:As a Developer, I want to Develop the backend code to add the data to database using API Calls**
+
+I have Developed a backend API where the data is stored and retrieved from the database
+
+Link to the story : https://github.com/Maruthi158/BuddyBearcat/issues/7
+
+![image](https://user-images.githubusercontent.com/77593316/141698085-d6671caa-0a18-4ea7-86c9-98a71d536ac5.png)
+
+I have completed the story and closed the task with appropriate comments:
+
+![image](https://user-images.githubusercontent.com/77593316/141698094-dbc19d49-1f91-4457-9ee8-0467748b8f2a.png)
+
+
+
 
 
