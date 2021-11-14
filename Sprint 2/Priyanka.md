@@ -51,7 +51,7 @@ As a tester I have validated the scenario when in home page of the application i
 
 Link to story : https://github.com/Maruthi158/BuddyBearcat/issues/10
 
-Testing evidence document :
+Testing evidence document : https://github.com/Maruthi158/gdpFrontend/blob/master/Sprint%202/Testing.md
 
 
 
