@@ -51,6 +51,12 @@ As a tester I have validated the scenario when in home page of the application i
 
 Link to story : https://github.com/Maruthi158/BuddyBearcat/issues/10
 
+![image](https://user-images.githubusercontent.com/77593316/141700821-80687c46-f2a8-44d2-948f-a533f23901ad.png)
+
+
+![image](https://user-images.githubusercontent.com/77593316/141700829-0ca822c0-806d-41e6-b91c-d432c3e8b517.png)
+
+
 Testing evidence document : https://github.com/Maruthi158/gdpFrontend/blob/master/Sprint%202/Testing.md
 
 
