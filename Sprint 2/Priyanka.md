@@ -3,6 +3,8 @@
 In Sprint2 I have completed the following tasks and stories:
 
 **Story 1 : Deploying the changed version of front end to Heroku #3**
+
+
 I have changed the version of frontend of the application of .ejs view engine to React.js in order to develop more flexible coding and more interactive UI Design and deploy the changed version of the front-end and backend to heroku .
 
 Below are the links for updated frontend and backend:
