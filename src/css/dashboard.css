@@ -41,3 +41,58 @@
     flex-direction: row;
     list-style: none;
 }
+
+.fetch-data li{
+    margin: 10px 0;
+}
+.fetch-data li img{
+    height: 200px;
+}
+
+.inputDnD {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form {
+    width: 100%;
+}
+
+.form-control-file {
+    position: relative;
+    margin-top: 20px;
+    height: 230px;
+    width: 70%;
+    outline: none;
+    visibility: hidden;
+    cursor: pointer;
+    background-color: #c61c23;
+}
+
+.form-control-file::before {
+    content: attr(data-title);
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    border-radius: 15px;
+    visibility: visible;
+    padding: 70px 0;
+    word-wrap: break-word !important;
+    border: 1px dashed currentColor;
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+    overflow: hidden;
+}
+
+@media only screen and (max-width:500px) {
+    .form-control-file::before{
+        text-align: start;
+        padding: 70px 20px;
+    }    
+}
+
+.form-control-file:hover::before {
+    border: 1px solid rgb(69, 170, 204);
+}
