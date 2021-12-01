@@ -21,3 +21,14 @@
     display: flex;
     flex-direction: column;
 }
+
+.view {
+    float: right;
+    background-color: white;
+    width: 93vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
