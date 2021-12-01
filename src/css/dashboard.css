@@ -58,3 +58,13 @@
     width: 100%;
 }
 
+.form-control-file {
+    position: relative;
+    margin-top: 20px;
+    height: 230px;
+    width: 70%;
+    outline: none;
+    visibility: hidden;
+    cursor: pointer;
+    background-color: #c61c23;
+}
