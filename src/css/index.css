@@ -6,6 +6,8 @@ body {
     display: flex;
     justify-content: center;
     background: url(https://images.pexels.com/photos/5088008/pexels-photo-5088008.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
 }
 
 .container{
