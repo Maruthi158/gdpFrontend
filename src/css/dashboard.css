@@ -32,3 +32,18 @@
     align-items: center;
     flex-direction: column;
 }
+
+.fetch-data{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+}
+.fetch-data li{
+    margin: 10px 0;
+}
+.fetch-data li img{
+    height: 200px;
+}
+
