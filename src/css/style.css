@@ -25,4 +25,9 @@ h1 {
     backdrop-filter: blur(2px);
     color: green;
 }
+.login-form input {
+    width: 98%;
+    font-size: 13px !important;
+    outline: invert !important;
+}
 
