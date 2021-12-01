@@ -1,3 +1,6 @@
-{
+* {
     font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+.container{
+    margin: left;
 }
