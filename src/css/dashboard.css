@@ -84,3 +84,13 @@
     overflow: hidden;
 }
 
+@media only screen and (max-width:500px) {
+    .form-control-file::before{
+        text-align: start;
+        padding: 70px 20px;
+    }    
+}
+
+.form-control-file:hover::before {
+    border: 1px solid rgb(69, 170, 204);
+}
