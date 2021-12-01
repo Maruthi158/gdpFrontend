@@ -1,1 +1,10 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.contain{
+    width:100vw !important;
+    height: fit-content;
+    background-color: white;
+}
 
