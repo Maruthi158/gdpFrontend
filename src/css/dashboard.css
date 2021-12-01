@@ -8,3 +8,16 @@
     background-color: white;
 }
 
+.sidebar {
+    position: fixed;
+    float:left;
+    /* display: block; */
+    background-color: white;
+    width: 8vw;
+    height: 100vh;
+    padding: 0%;
+    padding-right: 10px;
+    font-size: smaller;
+    display: flex;
+    flex-direction: column;
+}
