@@ -12,10 +12,20 @@ const Login = () => {
 
     const validation = async (event) => {
         event.preventDefault()
-
         if (!valid.isEmail(Email) && !valid.isStrongPassword(Pass) && !(Pass.length >= 8)) {
             alert('enter valid email or strong password!!!')
-        } )
+        } else {
+            const email = Email
+            const password = Pass
+            const result = await fetch("http://localhost:3300/login", {
+                method: "POST",
+                headers: {
+                    "content-type": "application/json"
+                },
+                body: JSON.stringify({
+                    email, password
+                })
+            })
 
 
             const data = await result.json();
@@ -29,6 +39,7 @@ const Login = () => {
 
 
     }
+
 
     return (
         <>
