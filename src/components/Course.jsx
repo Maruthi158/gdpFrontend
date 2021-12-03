@@ -62,3 +62,6 @@ const Course = () => {
                 <div className="view" style={{height:"100vh"}}>
                     <form encType="multipart/form-data" method="POST">
                         <div className="inputDnD text-center">
+                             <label className="my-2 fs-4" htmlFor="inputFile">Upload file Here</label>
+                            <input type="file" className="form-control-file text-primary font-weight-bold" name="file" id="inputFile" accept="application/json" onChange={checkFile} data-title="Drag and drop a file" required />
+                        </div>
