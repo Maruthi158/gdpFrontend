@@ -46,5 +46,10 @@ const Course = () => {
             method: "POST",
             body: data
         })
+        const response = await result.json()
+
+        if (response.success) {
+            history.push('/dashboard')
+        }
 
 
