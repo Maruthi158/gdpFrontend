@@ -11,3 +11,8 @@ const Course = () => {
     const history = useHistory()
     useEffect(() => {
         const callBack = async () => {
+            method: "GET",
+                headers: {
+                    "content-type": "application/json"
+                }
+            })
