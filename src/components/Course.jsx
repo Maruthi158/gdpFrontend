@@ -65,3 +65,12 @@ const Course = () => {
                              <label className="my-2 fs-4" htmlFor="inputFile">Upload file Here</label>
                             <input type="file" className="form-control-file text-primary font-weight-bold" name="file" id="inputFile" accept="application/json" onChange={checkFile} data-title="Drag and drop a file" required />
                         </div>
+                        <center><button type="button" className="btn btn-success" onClick={submit} style={{ width: "12rem" }} >Submit JSON File</button></center>
+                    </form>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default Course
