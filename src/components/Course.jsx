@@ -31,4 +31,9 @@ const Course = () => {
             event.preventDefault()
             alert('Please upload .json file...!')
         }
+        else {
+            console.log("entering else")
+            document.getElementById('inputFile').setAttribute("data-title", fileName)
+        }
+    }
 
