@@ -19,3 +19,15 @@ const Dashboard = () => {
         }
         callBack();
     }, [history]);
+
+    return (
+        <>
+            <div className="contain">
+                <Sidebar />
+                <div className="view">
+                    <DataFetching />
+                </div>
+            </div>
+        </>
+    )
+}
