@@ -4,3 +4,18 @@ import axios from 'axios'
 import '../css/dashboard.css'
 import Sidebar from "./Sidebar"
 import DataFetching from './DataFetching'
+
+const Dashboard = () => {
+
+    const history = useHistory()
+
+    useEffect(() => {
+        const callBack = () => {
+            axios.get("/dashboard")
+                .then((result) => {
+                    if (!result.data.success)
+                        history.push('/')
+                })
+        }
+        callBack();
+    }, [history]);
