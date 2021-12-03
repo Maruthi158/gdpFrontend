@@ -16,3 +16,10 @@ const Course = () => {
                     "content-type": "application/json"
                 }
             })
+            const Data = await result.json()
+            if (!Data.success) {
+                history.push('/')
+            }
+        }
+        callBack();
+    }, [history]);
