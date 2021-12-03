@@ -31,7 +31,9 @@ const App = () => {
             </Route>
             <Route exact path="/login" render={() => <Login />} />
             <Route exact path="/signup" render={() => <Signup />} />
-         
+            <Route exact path="/dashboard" render={() => <Dashboard />} />
+            <Route exact path="/course" render={() => <Course />} />
+            <Route exact path="/notification" render={() => <Notification />} />
             <Route render={() => <NotFound />} />
         </Switch>
     </>
