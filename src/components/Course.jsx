@@ -36,4 +36,15 @@ const Course = () => {
             document.getElementById('inputFile').setAttribute("data-title", fileName)
         }
     }
+     const submit = async (event) => {
+        event.preventDefault()
+        const inputFile = document.getElementById('inputFile')
+
+        var data = new FormData()
+        data.append('file', inputFile.files[0])
+        const result = await fetch('http://localhost:3300/course', {
+            method: "POST",
+            body: data
+        })
+
 
