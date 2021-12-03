@@ -22,4 +22,13 @@ const Notification = () => {
         }
         callBack();
     }, [history]);
+    return (
+        <>
+            <div className="contain">
+                <Sidebar />
+                <div className="view " style={{textAlign:"left" }}>
+                    {
+                        notificationData.map((data, index) => {
+                            return (
+                                <>
 
