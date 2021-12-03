@@ -51,5 +51,7 @@ const Course = () => {
         if (response.success) {
             history.push('/dashboard')
         }
-
-
+        else {
+            alert(response.error)
+        }
+    }
