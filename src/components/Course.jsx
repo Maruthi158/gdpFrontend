@@ -55,3 +55,10 @@ const Course = () => {
             alert(response.error)
         }
     }
+    return (
+        <>
+            <div className="contain">
+                <Sidebar />
+                <div className="view" style={{height:"100vh"}}>
+                    <form encType="multipart/form-data" method="POST">
+                        <div className="inputDnD text-center">
