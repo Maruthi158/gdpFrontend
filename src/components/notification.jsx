@@ -31,4 +31,17 @@ const Notification = () => {
                         notificationData.map((data, index) => {
                             return (
                                 <>
+                                <p className="fs-1" >{data.from}</p>
+                                    <h4 className="text-secondary">{data.message}</h4><hr />
+                                </>
+                            )
+                        })
+                    }
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default Notification
 
