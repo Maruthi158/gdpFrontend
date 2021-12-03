@@ -11,7 +11,8 @@ const Course = () => {
     const history = useHistory()
     useEffect(() => {
         const callBack = async () => {
-            method: "GET",
+            const result = await fetch("/dashboard", {
+                method: "GET",
                 headers: {
                     "content-type": "application/json"
                 }
@@ -23,6 +24,7 @@ const Course = () => {
         }
         callBack();
     }, [history]);
+
     const checkFile = (event) => {
         const file = event.target.value
         const fileName = path.basename(file)
@@ -36,7 +38,8 @@ const Course = () => {
             document.getElementById('inputFile').setAttribute("data-title", fileName)
         }
     }
-     const submit = async (event) => {
+
+    const submit = async (event) => {
         event.preventDefault()
         const inputFile = document.getElementById('inputFile')
 
@@ -46,6 +49,7 @@ const Course = () => {
             method: "POST",
             body: data
         })
+
         const response = await result.json()
 
         if (response.success) {
@@ -55,6 +59,7 @@ const Course = () => {
             alert(response.error)
         }
     }
+
     return (
         <>
             <div className="contain">
@@ -62,7 +67,7 @@ const Course = () => {
                 <div className="view" style={{height:"100vh"}}>
                     <form encType="multipart/form-data" method="POST">
                         <div className="inputDnD text-center">
-                             <label className="my-2 fs-4" htmlFor="inputFile">Upload file Here</label>
+                            <label className="my-2 fs-4" htmlFor="inputFile">Upload file Here</label>
                             <input type="file" className="form-control-file text-primary font-weight-bold" name="file" id="inputFile" accept="application/json" onChange={checkFile} data-title="Drag and drop a file" required />
                         </div>
                         <center><button type="button" className="btn btn-success" onClick={submit} style={{ width: "12rem" }} >Submit JSON File</button></center>
