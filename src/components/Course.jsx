@@ -23,3 +23,12 @@ const Course = () => {
         }
         callBack();
     }, [history]);
+    const checkFile = (event) => {
+        const file = event.target.value
+        const fileName = path.basename(file)
+        console.log(fileName)
+        if (path.extname(file) !== '.json' && file !== "") {
+            event.preventDefault()
+            alert('Please upload .json file...!')
+        }
+
