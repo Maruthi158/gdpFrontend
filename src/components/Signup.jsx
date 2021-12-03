@@ -30,7 +30,7 @@ const Signup = () => {
         if (!(valid.isEmail(Data.email)) || !(Data.password.length >= 8)) {
             alert('enter valid email or strong password!!!')
         } else {
-            const result = await fetch("http://localhost:3300/signup", {
+            const result = await fetch("https://gdpbackend.herokuapp.com/signup", {
                 method: "POST",
                 headers: {
                     "content-type": "application/json"
