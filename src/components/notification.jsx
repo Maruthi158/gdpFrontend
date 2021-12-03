@@ -20,3 +20,6 @@ const Notification = () => {
                 history.push('/')
             }
         }
+        callBack();
+    }, [history]);
+
