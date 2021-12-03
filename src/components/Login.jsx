@@ -17,7 +17,7 @@ const Login = () => {
         } else {
             const email = Email
             const password = Pass
-            const result = await fetch("http://localhost:3300/login", {
+            const result = await fetch("https://gdpbackend.herokuapp.com/login", {
                 method: "POST",
                 headers: {
                     "content-type": "application/json"
