@@ -1,4 +1,4 @@
-**Sprint 2 Progress:**
+**Sprint 3 Progress:**
 
 In Sprint2 I have completed the following tasks and stories:
 
